@@ -1,3 +1,6 @@
+#!/c/Users/Development/AppData/Local/Programs/Python/Python312/python.exe
+import pytest
+
 from fibonacci import fibonacci
 
 def test_fibonacci() -> None:
@@ -6,3 +9,7 @@ def test_fibonacci() -> None:
 
     for idx, val in enumerate(inputs):
         assert expected[idx] == fibonacci(val)
+
+
+if __name__ == "__main__":
+    pytest.main()
