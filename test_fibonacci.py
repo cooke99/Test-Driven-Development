@@ -1,4 +1,4 @@
-#!/c/Users/Development/AppData/Local/Programs/Python/Python312/python.exe
+#!/usr/bin/python3
 import pytest
 
 from fibonacci import fibonacci
